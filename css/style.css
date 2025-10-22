@@ -1,0 +1,101 @@
+* {
+    margin: 5px 10px;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    padding: 20px 0;
+    background: white;
+}
+
+.header-top { 
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    font-size: 14px;
+    color: #333;
+}
+
+.call {
+    background: #FFA019;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px; /**/
+    color: #333;
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.giro-section {
+    padding: 300px 0;
+    text-align: center;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.giro-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.giro-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ddd;
+}
+
+.catalog {
+    background: white;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
