@@ -1,0 +1,267 @@
+* {
+    margin: 5px 10px;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    padding: 20px 0;
+    background: white;
+}
+
+.box {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-top { 
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    font-size: 14px;
+    color: #333;
+}
+
+.call {
+    background: #FFA019;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 10px; /**/
+    color: #333;
+    text-decoration: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.giro-section {
+    padding: 300px 0;
+    text-align: center;
+    background-image: url('img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.giro-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.giro-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ddd;
+}
+
+.catalog {
+    background: white;
+    color: black;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.advantages-section {
+    padding: 50px 0;
+}
+
+.advantages-section {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.advantages-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.advantage {
+    text-align: center;
+}
+
+.advantage-image {
+    width: 120px;
+    height: 100px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub {
+    padding: 60px 0;
+    background: #FFA019;
+    color: white;
+}
+
+.sub h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.sub-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto;
+}
+
+.sub-form input {
+    padding: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.sub-form input::placeholder {
+    color: white;
+}
+
+.baton {
+    background: white;
+    color: #FFA019;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.osobennosti {
+    padding: 60px 0;
+    background: white;
+}
+
+.menus-plus {
+    display: grid;/**/
+    grid-template-columns: repeat(3, 1fr);/**/
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.plus {
+    text-align: center;
+    font-style: italic;/**/
+}
+
+.catalog-section {
+    padding: 60px 0;
+    background: #f9f9f9;
+}
+
+.catalog-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.catalog-nav-btn {
+    padding: 10px 20px;
+    border: 1px solid #FBFBFB;
+    background: white;
+    cursor: pointer; /**/
+    border-radius: 20px;
+}
+
+.catalog-nav-btn.active {
+    background: #FFA019;
+    color: white;
+    border-color: #FFA019;
+}
+
+.catalog-zagl {
+    cursor: pointer;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border: 1px solid #FBFBFB;
+    position: relative;
+}
+
+.product-type {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #FFA019;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0 15px 15px 0;
+    font-size: 12px;
+}
+
+.product-image {
+    width: 100%;
+    height: 150px;
+    background: #FBFBFB;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-name {
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: black;
+    font-weight: bold;
+}
